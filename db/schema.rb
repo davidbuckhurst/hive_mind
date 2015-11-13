@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151110102253) do
+ActiveRecord::Schema.define(version: 20151110100304) do
 
   create_table "brands", force: :cascade do |t|
     t.string   "name"
@@ -19,14 +19,6 @@ ActiveRecord::Schema.define(version: 20151110102253) do
     t.string   "alternative"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-  end
-
-  create_table "hive_mind_hive_attributes", force: :cascade do |t|
-    t.string   "hostname"
-    t.string   "ip"
-    t.string   "mac"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "device_types", force: :cascade do |t|

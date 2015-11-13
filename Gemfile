@@ -34,6 +34,8 @@ group :development, :test do
   gem 'byebug'
 
   gem 'rspec-rails', '~> 3.3'
+
+  gem 'mind_meld', git: 'git@github.com:bbc/mind_meld', branch: 'register'
 end
 
 group :development do

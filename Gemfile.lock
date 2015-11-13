@@ -1,3 +1,11 @@
+GIT
+  remote: git@github.com:bbc/mind_meld
+  revision: 4e513d1a2566cb29827b53b625bebef1ffc9d457
+  branch: register
+  specs:
+    mind_meld (0.0.1)
+      activesupport (~> 4)
+
 PATH
   remote: hive_mind_hive
   specs:
@@ -169,6 +177,7 @@ DEPENDENCIES
   hive_mind_hive!
   jbuilder (~> 2.0)
   jquery-rails
+  mind_meld!
   omniauth
   rails (= 4.2.4)
   rspec-rails (~> 3.3)
